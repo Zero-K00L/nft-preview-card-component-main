@@ -1,0 +1,146 @@
+/* Color Variables */
+
+:root {
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --veryDarkBlueMBG: hsl(217, 54%, 11%); /* (main BG) */
+    --veryDarkBlueCBG: hsl(216, 50%, 16%); /* (card BG) */
+    --veryDarkBlueLine: hsl(215, 32%, 27%); /* (line) */
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--veryDarkBlueMBG);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.main {
+    background-color: var(--veryDarkBlueCBG);
+    width: 327px;
+    height: 543px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.main_img {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+}
+
+.text {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.nft_name {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.nft_description {
+    color: var(--softBlue);
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 14px;
+    width: 102%;
+    font-size: 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 11px;
+}
+
+.value {
+    color: var(--cyan);
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    left: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nft_icon {
+    position: relative;
+    left: -5px;
+    top: 3px;
+}
+
+.time {
+    color: var(--softBlue);
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.time_icon {
+    position: relative;
+    top: 2px;
+    left: -1px;
+}
+
+.line_divider {
+    border-top: 1px solid var(--veryDarkBlueLine);
+    display: inline-block;
+    width: 281px;
+    height: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 15px;
+} 
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    position: relative;
+    left: -31px;
+    top: -8px;
+}
+
+.author {
+    margin-top: 0;
+    color: var(--softBlue);
+    font-weight: 300;
+    font-size: 16px;
+    position: relative;
+    left: -21px;
+}
+
+.author_name {
+    color: var(--white);
+}
