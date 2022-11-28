@@ -46,6 +46,8 @@ body {
     margin-bottom: 45px;
 }
 
+
+
 .text {
     padding-left: 25px;
     padding-right: 25px;
@@ -54,9 +56,16 @@ body {
 .nft_name {
     color: var(--white);
     font-weight: 600;
-    font-size: 23px;
+    font-size: 22px;
     margin-top: 0;
     margin-bottom: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.nft_name:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 .nft_description {
@@ -82,35 +91,38 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
-    left: 5px;
-    font-weight: 600;
+    left: 7px;
+    top: -2px;
+    font-weight: 700;
     font-size: 15px;
 }
 
 .nft_icon {
     position: relative;
-    left: -5px;
-    top: 3px;
+    left: -6px;
+    top: 5px;
 }
 
 .time {
     color: var(--softBlue);
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 15px;
+    position: relative;
+    top: -2px;
 }
 
 .time_icon {
     position: relative;
-    top: 2px;
-    left: -1px;
+    top: 4px;
+    left: -6px;
 }
 
 .line_divider {
     border-top: 1px solid var(--veryDarkBlueLine);
     display: inline-block;
-    width: 281px;
+    width: 277px;
     height: 1px;
     margin-left: 25px;
     margin-right: 25px;
@@ -123,24 +135,30 @@ body {
 }
 
 .avatar {
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 33px;
     border: 1px solid var(--white);
     border-radius: 50%;
     position: relative;
-    left: -31px;
-    top: -8px;
+    left: -36px;
+    top: -3px;
 }
 
 .author {
     margin-top: 0;
     color: var(--softBlue);
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15.5px;
     position: relative;
-    left: -21px;
+    left: -20px;
+    top: 2px
 }
 
 .author_name {
     color: var(--white);
+}
+
+.author_name:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
