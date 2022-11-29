@@ -186,3 +186,76 @@ body {
     color: var(--cyan);
     cursor: pointer;
 }
+
+/* Media Query */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main {
+        width: 350px;
+        height: 596px;
+    }
+
+    .main_img {
+        width: 302px;
+        height: 302px;
+    }
+
+    .overlay_container {
+        top: 29%;
+        left: 50%;
+        width: 303px;
+        height: 305px;
+    }
+
+    .nft_name {
+        margin-bottom: 12px;
+    }
+
+    .nft_description {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 23px;
+        position: relative;
+        top: 2px;
+    }
+
+    .info {
+        margin-bottom: 22px;
+    }
+
+    .value {
+        font-size: 16px;
+    }
+
+    .nft_icon {
+        left: -6px;
+        top: 3px;
+    }
+
+    .time {
+        font-size: 16px;
+        top: 0px;
+    }
+
+    .time_icon {
+        top: 3px;
+        left: -8px;
+    }
+
+    .line_divider {
+        width: 301px;
+        padding-bottom: 16px;
+    }
+
+    .avatar {
+        left: -45px;
+        top: -5px;
+    }
+
+    .author {
+        font-size: 16px;
+        left: -29px;
+        top: 1px;
+    }
+} 
